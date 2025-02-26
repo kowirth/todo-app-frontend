@@ -1,0 +1,58 @@
+/* src/App.css */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.main-content {
+  display: flex;
+  gap: 20px;
+}
+
+.post-list,
+.post-detail {
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 4px;
+  background: #f9f9f9;
+}
+
+.post-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.post-list li {
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+.post-list li:hover {
+  background: #eaeaea;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  border: 2px solid black; /* Added 2px solid border on all sides */
+}
+
